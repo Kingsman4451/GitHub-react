@@ -35,7 +35,7 @@ const NavbarRes = () => {
         <div className="bottom" ref={navbar}>
           <div className="search-box position-relative mb-3">
             <input
-              className="navbar-search bg-transparent px-2 py-1"
+              className="search bg-transparent px-2 py-1"
               type="search"
               placeholder="Search or jump to..."
               value={searchUser}
@@ -81,7 +81,7 @@ const NavbarRes = () => {
             <li className="nav-item w-100 text-white p-2">Codespaces</li>
 
             <li className="nav-item w-100 text-white p-2">Sponsors</li>
-            
+
             <li className="nav-item w-100 text-white p-2">Settings</li>
             <li className="nav-item w-100 text-white d-flex justify-content-start align-items-center gap-2 p-2">
               <img
