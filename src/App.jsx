@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Api } from './URL/API.JSX';
+import { Api } from './URL/API.jsx';
 import Main from './components/Main/Main';
 import Navbar from './components/Navbar/Navbar';
 import { context } from './context';
