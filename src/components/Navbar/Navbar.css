@@ -75,13 +75,23 @@
   background-color: rgba(113, 113, 113, 0.101);
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
+  .navbar-search {
+    width: 250px;
+  }
+
+  .navbar-search:focus {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
   .navbar-search {
     width: 200px;
   }
 
   .navbar-search:focus {
-    width: 260px;
+    width: 250px;
   }
 }
 
